@@ -20,9 +20,11 @@ Scenario:Sign rules for operands
 
 Given : Calculator charged and turned on
 
-When : put in first number with sign, put in '/' sign, put in second number with sign, press '='.
+When : put in first number with sign, put in '/' sign, put 
+in second number with sign, press '='.
 
-Then : Normal division done, plus sign counter maintained. If even, positive number. 
+Then : Normal division done, plus sign counter maintained.
+If even, positive number.
 If odd, negative number. Result displayed.
 
 Scenario:
@@ -53,7 +55,8 @@ Scenario: Multiple times "/" is pressed
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in '/' sign multiple times, put in second number, press '='.
+When : Put in first number, put in '/' sign multiple times,
+put in second number, press '='.
 
 Then : '/' sign is overwritten by itself multiple times. Result displayed.
 
@@ -61,7 +64,8 @@ Scenario: Interleaving of multiple operators
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in '/' sign, put in other operators, put in second number, press '='.
+When : Put in first number, put in '/' sign, put in other operators,
+put in second number, press '='.
 
 Then : Operators are buffered, last one used. The result displayed.
 
@@ -77,6 +81,8 @@ Scenario:Division of multiple numbers
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in '/' sign, put in second number, so on, press '='.
+When : Put in first number, put in '/' sign, put in second number,
+so on, press '='.
 
-Then : Division done left to right, results buffered at each stage. Final result displayed.
+Then : Division done left to right, results buffered at each stage.
+Final result displayed.
