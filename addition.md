@@ -64,7 +64,7 @@ Scenario: Addition of fractions
   Then : Number of extra digits calculated and displayed as
   a power of ten.
   
-   Scenario: 6+* is provided as input
+   Scenario: 6+* provided as input
   
   Given  : Calculator charged and turned on
   
