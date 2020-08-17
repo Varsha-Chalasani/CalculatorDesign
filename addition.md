@@ -63,3 +63,28 @@ Scenario: Addition of fractions
   
   Then : Number of extra digits calculated and displayed as
   a power of ten.
+  
+   Scenario: 6+* is provided as input
+  
+  Given  : Calculator charged and turned on
+  
+  When : Type in first number, type in plus sign, type in star sign.
+  
+  Then : Replace the first operator by the second. There is no second
+  operand, give syntax error.
+
+ Scenario: Identify operation
+  
+  Given  : Calculator charged and turned on
+  
+  When : Type in first number, type in plus sign, type in second number '0'
+  
+  Then : first number displayed to result screen.
+
+ Scenario: Converse operation
+  
+  Given  : Calculator charged and turned on. We have value of a+b
+  
+  When : Type in b, type in plus sign, type in a.
+  
+  Then : Return value of a+b.
