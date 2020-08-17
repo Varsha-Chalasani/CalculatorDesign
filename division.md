@@ -27,14 +27,6 @@ Then : Normal division done, plus sign counter maintained.
 If even, positive number.
 If odd, negative number. Result displayed.
 
-Scenario:
-
-Given : Calculator charged and turned on
-
-When : Put in first number, put in '/' sign, put in second number, press '='.
-
-Then : Result displayed.
-
 Scenario: Division when both operands are '0'
 
 Given : Calculator charged and turned on
@@ -51,25 +43,25 @@ When : Put in first number, put in '/' sign, put in second number, press '='.
 
 Then : If recurring, cap down to two decimal places.
 
-Scenario: Multiple times "/" is pressed
+Scenario: More than once "/" used
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in '/' sign multiple times,
+When : Put in first number, put in '/' sign more than once,
 put in second number, press '='.
 
-Then : '/' sign is overwritten by itself multiple times. Result displayed.
+Then : '/' sign overwritten by itself more than once. Result displayed.
 
-Scenario: Interleaving of multiple operators
+Scenario: Interleaving of more than one operators
 
 Given : Calculator charged and turned on
 
 When : Put in first number, put in '/' sign, put in other operators,
 put in second number, press '='.
 
-Then : Operators are buffered, last one used. The result displayed.
+Then : Operators buffered, last one used. The result displayed.
 
-Scenario: When operand 2 is not present
+Scenario: Operand 2 not given
 
 Given : Calculator charged and turned on
 
