@@ -6,13 +6,15 @@ Given : Calculator charged and turned on
 
 When : Put in first number, put in star sign, put in second number, press '='.
 
-Then : Result displayed. The overflow digits are identified, represented to the power 10.
+Then : Result displayed. The overflow digits are identified, represented to
+the power 10.
 
 Scenario: Signs of the numbers.
 
 Given : Calculator charged and turned on
 
-When : put in first number with sign, put in star sign, put in second number with sign, press '='.
+When : put in first number with sign, put in star sign, put in second number
+with sign, press '='.
 
 Then : Normal multiplication is done, plus sign counter maintained. If even,
 positive number. If odd, negative number. Result displayed.
@@ -80,7 +82,8 @@ Scenario: Pressing "multiply button" multiple times.
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in star sign multiple times, put in second number, press '='.
+When : Put in first number, put in star sign multiple times, put in
+second number, press '='.
 
 Then : Star sign is overwritten by itself multiple times. Result displayed.
 
