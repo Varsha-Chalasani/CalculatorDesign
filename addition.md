@@ -10,12 +10,12 @@ Scenario: Addition of two negative numbers
 
 Scenario: Addition of fractions
   
-  Given  : Calculator is charged and turned on, application has 
+  Given  : Calculator is charged and turned on, application has
   paranthesis or history feature
   
-  When : Type in the fractions with a plus sign in between with 
-  aptly placed paranthesis or type in first fraction and get the 
-  decimal, type in the next fraction and get the decimal and both 
+  When : Type in the fractions with a plus sign in between with
+  aptly placed paranthesis or type in first fraction and get the
+  decimal, type in the next fraction and get the decimal and both
   decimals
   
   Then : The result is displayed in decimal.
@@ -24,7 +24,7 @@ Scenario: Addition of fractions
   
   Given  : Calculator is charged and turned on
   
-  When : put in the positive number, put in a negative sign, put in 
+  When : put in the positive number, put in a negative sign, put in
   the absolute positive of negative number.
   
   Then : The result is displayed.
@@ -33,7 +33,7 @@ Scenario: Addition of fractions
   
   Given  : Calculator is charged and turned on
   
-  When : Put in first decimal, put in the poositive sign, put in the second 
+  When : Put in first decimal, put in the poositive sign, put in the second
   decimal.
   
   Then : The result is displayed.
