@@ -82,10 +82,10 @@ Scenario: Pressing "multiply button" more than once.
 
 Given : Calculator charged and turned on
 
-When : Put in first number, put in star sign multiple times, put in
+When : Put in first number, put in star sign more than once, put in
 second number, press '='.
 
-Then : Star sign overwritten by itself multiple times. Result displayed.
+Then : Star sign overwritten by itself. Result displayed.
 
 Scenario:Interleaving operators
 
