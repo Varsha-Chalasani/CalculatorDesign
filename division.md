@@ -61,7 +61,7 @@ put in second number, press '='.
 
 Then : Operators buffered, last one used. The result displayed.
 
-Scenario: Operand 2 not given
+Scenario: Operand 2 not present
 
 Given : Calculator charged and turned on
 
@@ -69,12 +69,12 @@ When : Put in first number, put in '/' sign, press '='.
 
 Then : Error displayed.
 
-Scenario:Division of multiple numbers
+Scenario:Division of more than two numbers
 
 Given : Calculator charged and turned on
 
 When : Put in first number, put in '/' sign, put in second number,
-so on, press '='.
+repeat, press '='.
 
 Then : Division done left to right, results buffered at each stage.
 Final result displayed.
