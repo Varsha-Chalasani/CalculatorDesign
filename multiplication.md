@@ -41,7 +41,7 @@ Given : Calculator charged and turned on
 
 When : Put in first decimal, put in star sign, put in second decimal, press '='.
 
-Then : Multipled as two integers, decimal count maintained, value is corrected.
+Then : Multiplied as two integers, decimal count maintained, value is corrected.
 
 Scenario: Irrational value multiplication
 
@@ -49,7 +49,7 @@ Given : Calculator charged and turned on
 
 When : Put in first number, put in star sign, put in second number, press '='.
 
-Then : Irration number capped to 2 decimal places. Multiplied as decimals.
+Then : Irrational number capped to 2 decimal places. Multiplied as decimals.
 Result displayed.
 
 Scenario: Decimal & integer multiplication
@@ -58,7 +58,7 @@ Given : Calculator charged and turned on
 
 When :Put in first number, put in star sign, put in second number, press '='.
 
-Then : Decimal counter mainted, multiplied as integers, decimal point updated.
+Then : Decimal counter maintained, multiplied as integers, decimal point updated.
 Result displayed.
 
 Scenario: More than two numbers multiplication
