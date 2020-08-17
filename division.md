@@ -20,7 +20,7 @@ Scenario:Sign rules for operands
 
 Given : Calculator charged and turned on
 
-When : put in first number with sign, put in '/' sign, put 
+When : put in first number with sign, put in '/' sign, put
 in second number with sign, press '='.
 
 Then : Normal division done, plus sign counter maintained.
@@ -77,7 +77,7 @@ When : Put in first number, put in '/' sign, press '='.
 
 Then : Error displayed.
 
-Scenario:Division of multiple numbers 
+Scenario:Division of multiple numbers
 
 Given : Calculator charged and turned on
 
