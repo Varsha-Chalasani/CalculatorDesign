@@ -42,7 +42,8 @@ Scenario: Addition of fractions
   
   Given  : Calculator is charged and turned on
   
-  When : type in first number, type in an operator, type in another operator, type in second number.
+  When : type in first number, type in an operator, type in another
+  operator, type in second number.
   
   Then : Display an error.
   
@@ -50,7 +51,8 @@ Scenario: Addition of fractions
   
   Given  : Calculator is charged and turned on
   
-  When : type in first number, type in plus sign, type in second number, type in plus sign, type in third number and so on.
+  When : type in first number, type in plus sign, type in second number,
+  type in plus sign, type in third number and so on.
   
   Then : The result is displayed.
   
@@ -60,4 +62,5 @@ Scenario: Addition of fractions
   
   When : Type in first number, type in plus sign, type in second number.
   
-  Then : Number of extra digits are calculated and they are displayed as a power of ten.
+  Then : Number of extra digits are calculated and they are displayed as
+  a power of ten.
