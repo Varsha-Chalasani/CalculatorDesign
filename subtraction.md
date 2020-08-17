@@ -1,4 +1,4 @@
-# Subtraction 
+# Subtraction
 
 Scenario: Subtraction of two numbers(All sets of signs)
 
