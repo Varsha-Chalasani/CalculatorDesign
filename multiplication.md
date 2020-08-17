@@ -6,7 +6,7 @@ Given : Calculator charged and turned on
 
 When : Put in first number, put in star sign, put in second number, press '='.
 
-Then : Result displayed. The overflow digits are identified, represented to
+Then : Result displayed. Identify overflow digits, represent to
 the power 10.
 
 Scenario: Signs of the numbers.
@@ -16,7 +16,7 @@ Given : Calculator charged and turned on
 When : put in first number with sign, put in star sign, put in second number
 with sign, press '='.
 
-Then : Normal multiplication is done, plus sign counter maintained. If even,
+Then : Normal multiplication done, plus sign counter maintained. If even,
 positive number. If odd, negative number. Result displayed.
 
 Scenario:Zero value multiplication
@@ -41,7 +41,7 @@ Given : Calculator charged and turned on
 
 When : Put in first decimal, put in star sign, put in second decimal, press '='.
 
-Then : Multiplied as two integers, decimal count maintained, value is corrected.
+Then : Multiplied as two integers, decimal count maintained, value corrected.
 
 Scenario: Irrational value multiplication
 
@@ -66,7 +66,7 @@ Scenario: More than two numbers multiplication
 Given : Calculator charged and turned on
 
 When : type in first number, type in star, type in second number, type in star sign,
-type in third number and so on.
+type in third number and repeat.
 
 Then : The result displayed.
 
@@ -78,14 +78,14 @@ When :Put in first number, put in star sign, put in second number, press '='.
 
 Then : Error displayed.
 
-Scenario: Pressing "multiply button" multiple times.
+Scenario: Pressing "multiply button" more than once.
 
 Given : Calculator charged and turned on
 
 When : Put in first number, put in star sign multiple times, put in
 second number, press '='.
 
-Then : Star sign is overwritten by itself multiple times. Result displayed.
+Then : Star sign overwritten by itself multiple times. Result displayed.
 
 Scenario:Interleaving operators
 
@@ -94,4 +94,4 @@ Given : Calculator charged and turned on
 When :Put in first number, put in star sign, put in other operators,
 put in second number, press '='.
 
-Then : Operators are buffered, last one used. The result displayed.
+Then : Operators buffered, last one used. The result displayed.
