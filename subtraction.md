@@ -1,4 +1,4 @@
-#Subtraction scenarios
+# Subtraction 
 
 Scenario: Subtraction of two numbers(All sets of signs)
 
@@ -20,7 +20,7 @@ Scenario: Typing operator more than once
 
 Given : Calculator charged and turned on
 
-When : type in first number, type in an operator, type in another 
+When : type in first number, type in an operator, type in another
 operator, type in second number.
 
 Then : Display an error.
@@ -29,7 +29,8 @@ Scenario: Subtraction of more than 2 numbers
 
 Given : Calculator charged and turned on
 
-When : type in first number with sign, type in second number with sign, type in third number and so on.
+When : type in first number with sign, type in second number with
+sign, type in third number and so on.
 
 Then : The result displayed.
 
